@@ -1,0 +1,173 @@
+@font-face{
+	font-family:`'fontes';
+	src: url("TsukimiRounded-Regular") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+{
+#052FB3;
+#17CFAB;
+#D4E1F4;
+}
+
+body{
+	background-image: linear-gradient( #141414, #281e5d);
+	
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'fontes',
+}
+
+.cabeçalho{
+	display: flex;
+	justify-content: space-between;
+	background: #303030;
+	padding: 30px 200px;
+	
+}
+
+.cabeçalho img {
+	max-width: 100px;
+	max-height: 100px;
+	width: auto;
+	height: auto;
+
+}
+
+.cabeçalho h1{
+	color:#17CFAB;
+	font-size: 70px;
+	margin-top: 10px;	
+}
+
+.corpo {
+	padding: 80px 200px;
+	background-image: linear-gradient( #141414, #281e5d);
+	border: none;
+}
+ 
+.caixadetexto{
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 0 0 4%;
+}
+
+.caixadetexto .Texto{
+	width: 400px;
+	height: 330px;
+}
+
+#caixadetexto{
+	width: 450px;
+	height: 450px;
+	font-size: 20px;
+	color: #D4E1F4;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	outline: 0;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+#tentativa {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #052FB3;
+	border-radius: 20px;
+	width: 450px;
+	height: 400px;
+	margin-right: 3%;
+
+}
+
+#tentativa h2{
+	text-align: center;
+	font-size: 25px;
+	color: #17CFAB;
+}
+
+#tentativa span{
+	font-size: 16px;
+	text-align: center;
+	color: #003C9C;
+}
+
+#tentativa img{
+	max-width: 300px;
+	max-height: 300px;
+	width: auto;
+	height: auto;
+	margin-top: 4%;
+	margin-left: 80px;
+}
+
+.buttons {
+	position: relative;
+	right: 290px;
+	down: 100px;
+	text-align:right;
+	margin-top: 30px;
+	margin-left: 800px;
+}
+
+.conteiner-but button {
+	 border: 1px solid #17CFAB;
+	 border-radius: 10px;
+	 background:#052FB3 ;
+	 text-decoration: none;
+	 color:#17CFAB;
+	 width: 150px;
+	 height: 50px;
+	 margin-left: 4%;
+	 cursor: pointer;
+}
+
+.btn-copiar{
+	 border: 1px solid #17CFAB;
+	 border-radius: 10px;
+	 background:#052FB3 ;
+	 text-decoration: none;
+	 color:#17CFAB;
+	 width: 150px;
+	 height: 50px;
+	 margin-bottom: 10;
+	 margin-left: 150px;
+	 cursor: pointer;
+}
+
+.conteiner-but button:hover{
+	background: #17CFAB;
+	color:#052FB3 ;
+	transition: 0.3s all;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px ;
+    background: #303030;
+    color:#17CFAB;
+}
+
+.rodape h3{
+    font-size: 21px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: #17CFAB;
+}
+
+.icons ion-icon:hover{
+    color: #052FB3;
+    transition: 0.3s all;
+}
